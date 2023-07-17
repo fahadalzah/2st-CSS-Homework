@@ -1,0 +1,67 @@
+/* In here I made all the diffrent borders/colors of the borders/width of the borders. */
+.none{
+    border: none ;
+}
+.solid{
+    border: solid #635985 2px;
+}
+.dotted{
+    border: dotted #443C68 ;
+}
+.groove{
+    border: groove #393053 ;
+}
+.inset{
+    border: inset #18122B ;
+}
+.hidden{
+    border: hidden ;
+}
+.dashed{
+    border: dashed #635985 ;
+}
+.double{
+    border: double #443C68 ;
+}
+.ridge{
+    border: ridge #393053 ;
+}
+.outset{
+    border: outset #18122B ;
+}
+/* This is the part where I made all the types into rounded borders/made the heading stay in the middle of the divs and change the height and wdith of all divs */
+div{
+    border-radius: 5px;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* This is where I made the first five beside each other using flexboxs  */
+.first-five{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+/* This is where we made the last five beside each other using flexboxs */
+.last-five{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+/* This was used to make the inner border for all types thats why its not a class nor an id */
+h1{
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px;
+    
+    
+    text-align: center;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
